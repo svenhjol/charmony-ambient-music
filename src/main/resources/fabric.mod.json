@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "charmony-ambient-music",
+  "version": "${mod_version}",
+
+  "name": "Charmony ambient music",
+  "description": "Music tweaks and additional background music. Compatible with vanilla servers such as Realms.",
+  "authors": [
+    "svenhjol"
+  ],
+  "icon": "assets/charmony-ambient-music/textures/gui/sprites/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+  ],
+
+  "entrypoints": {
+    "client": [
+      "svenhjol.charmony.ambient_music.client.ClientInitializer"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*",
+    "charmony": "${charmony_version}"
+  },
+
+  "contact": {
+    "homepage": "https://charmony.work",
+    "sources": "https://github.com/svenhjol/${mod_id}"
+  }
+}

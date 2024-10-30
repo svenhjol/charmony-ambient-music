@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Charmony ambient music resources",
+    "pack_format": ${pack_version}
+  }
+}
